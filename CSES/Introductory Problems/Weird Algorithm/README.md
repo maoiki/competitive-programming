@@ -25,6 +25,7 @@ print(4//2) #output: 2
 <br>
 <details>
 <summary> inputs are read as strings by default</summary>
+
 to fix it and transform it into the data type we want, we can wrap it in an `int()` or something similar.
 
 example:
@@ -38,6 +39,7 @@ y = int(input())
   print(type(y)) #output: <class 'int'>
 ```
 </details>
+
 ### 🔵 C++
 
 the input you receive can be stored as an int, because: $1≤n≤10^6$
