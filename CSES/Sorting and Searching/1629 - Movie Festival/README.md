@@ -2,7 +2,9 @@
 
 In this problem, by sorting the $movies$ array by the time each movie ends, we can compare whether the start of the next movie is the same as or after the end of the current movie. When this is true, we can add +1 to the solution counter and update the variable where we store the end value of the current movie with the end of the next movie.
 
-## Notes:
+You can learn more about scheduling problems (like this one) at section 6.2 in the book [Competitive Programmer's Handbook](https://cses.fi/book/index.php)
+
+## Notes
 
 ### 🐍 Python
 
